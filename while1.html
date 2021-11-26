@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+    <script>
+        window.onload = kjør()
+
+        function kjør() {
+            document.getElementById("butnSub1").onclick = test1()
+        }
+
+        function test1() {
+            let rett = 1
+            if (document.getElementById("oppg1in1").value = "(") {
+                rett++
+            }
+            console.log("rett")
+        }
+    </script>
+
+</head>
+<body>
+    <div class="sidenav">
+        <img style="width: 50%; display: block; margin-left: auto; margin-right: auto;" src="img/Logo.png" alt="">
+        <a class="activesid" href="index.html">Velkommen</a>
+        <a href="while1.html">While Løkker</a>
+        <a href="for1.html">For Løkker</a>
+      </div>
+    
+      <div class="main">
+        <h1>While løkker</h1>
+        <hr>
+        <p>While løkker er løkker som kjører kode så lenge argumentet du har gitt er sant</p>
+        <hr>
+        <h2>Syntax for While løkker</h2>
+        <pre class="syntax">while (argument) {</pre>
+        <pre class="syntaxcomment">//putt koden du vil gjenta her</pre>
+        <pre class="syntax">}</pre>
+        <hr>
+
+        <div class="oppgbg" style="width: 800px; height: 400px;">
+            <h1 class="oppgtitl">Test deg selv!</h1>
+            <div class="oppg" style="width: 760px; height: 326px; margin-left: 20px;">
+                <p class="oppgtxt">Lag en while løkke</p>
+                <div class="oppgcont" style="margin-left: 10px; width: 740px; height: 254px;">
+                    <pre class="oppgcod">
+                        while <input type="text" id="oppg1in1" style="margin-top: 4px; width: 6px;"> <input type="text" id="oppg1in2" style="margin-top: 4px; width: 25px;"> <input type="text" id="oppg1in3" style="margin-top: 4px; width: 6px;"> <input type="text" id="oppg1in4" style="margin-top: 4px; width: 6px;"> 
+                        alert( 'Hello, world!' );
+                        <input type="text" id="oppg1in5" style="margin-top: 4px; width: 6px;">
+                    </pre>
+                   <!-- <button type="button" id="butnSub1" class="subbutt" style="margin-left: 249px; margin-top: 110px;">Sjekk svar</button> -->
+                </div>
+            </div>
+        </div>
+        <hr>
+        <p>While løkker er bygd opp på ganske lik måte som en if test, en når de utføres er resultatet ganske anderledes,</p>
+        <p>while løkken utfører koden flere ganger mens if testen utfører den en gang og går videre.</p>
+    </div>
+</body>
+</html>

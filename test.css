@@ -1,0 +1,51 @@
+body{
+    background-color: #0C0032;
+    color: black;
+}
+
+p{
+    color: white;
+}
+
+.oppgbg {
+    margin: 30px;
+    border-radius: 5px;
+    background-color: #282828;
+}
+
+.oppgtitl {
+    margin-left: 263px;
+    color: white;
+}
+
+.oppgtxt {
+    color: black;
+    margin-left: 10px;
+}
+
+.oppg {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.oppgcont {
+    background-color: #cccccc;
+    border-radius: 5px;
+}
+
+.oppgcod {
+    margin-left: 10px;
+    color: black;
+}
+
+.subbutt {
+    background-color: #3500D3;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px;
+}

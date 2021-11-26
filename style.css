@@ -1,0 +1,150 @@
+body{
+  background-color: #0C0032;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+}
+
+p{
+  color: white;
+}
+
+.syntax {
+    font-size: medium;
+}
+.syntaxcomment {
+    color: chartreuse;
+}
+.oppgbg {
+  margin: 30px;
+  border-radius: 5px;
+  background-color: #282828;
+}
+
+.oppgtitl {
+  margin-left: 263px;
+  color: white;
+}
+
+.oppgtxt {
+  color: black;
+  margin-left: 10px;
+}
+
+.oppg {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.oppgcont {
+  background-color: #cccccc;
+  border-radius: 5px;
+}
+
+.oppgcod {
+  margin-left: 10px;
+  color: black;
+}
+
+.subbutt {
+  background-color: #190061;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+}
+.subbutt:hover {
+    background-color: #240090;
+}
+ 
+.sidenav {
+    height: 100%; 
+    width: 160px; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0; 
+    left: 0;
+    background-color: #282828; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+  }
+
+.sidenav a:hover {
+    background-color: #240090;
+    color: #f1f1f1;
+  }
+
+  .sidenav a.activesid {
+    background-color: #3500D3;
+    color: #f1f1f1;
+  }
+
+.main {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } 
+
+div.pagination {
+    display: block;
+    margin-left: 700px;
+    margin-top: 10px;
+}
+
+ .pagination a {
+    color: #ddd;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #190061;
+    border-radius: 5px;
+  }
+
+  .pagination a.activepag {
+    background-color: #3500D3;
+    color: white;
+  }
+
+  .pagination a:hover:not(.active) {background-color: #240090;} 
+
+  .frontpag {
+      z-index: 1;
+      background-color: #190061;
+      top: 0;
+      left: 0;
+      padding: 20px;
+      border-radius: 5px;
+      height: 300px;
+  }
+  .frontex {
+      background-color: white;
+      border-radius: 5px;
+      width: 500px;
+      display: block;
+      float: right;
+      height: 300px;
+  }
+  .frontextit {
+      display: block;
+      float: left;
+  }
